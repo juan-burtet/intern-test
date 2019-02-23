@@ -1,5 +1,6 @@
 class Teste
 	include Mongoid::Document
-	field :nomeDoAtributo, type: String
+	field :nome, type: String
+	field :qtArtigos, type: Integer
 	store_in collection:'colectionTestes', database:'qualquerNome'
 end
