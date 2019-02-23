@@ -1,5 +1,21 @@
 # Teste para Estagioário de Desenvolvimento - Indeorum
 
+## Como utilizar
+
+- Entrar na pasta myapp
+- Usar o comando 'bundle install'
+- Abrir o interpretador 'rails c'
+
+## Comandos
+
+- Pode se adicionar no mongodb utilizando a classe Teste, passando nome e quantidade de artigos
+> Exemplo:\
+> Teste.create({nome:'nome', qtArtigos:0})
+- Utilizando a função adicionaPesquisador da classe ExtractorController, é possivel recuperar o número de artigos do pesquisador
+
+
+# Readme Original
+
 ## Introdução
 A indeorum iniciou como uma empresa voltada a serviços de data science aplicados a pós-graduação brasileira.
 Por isso, seus três produtos lançados são voltados para esta área (Cientum, Ranquium e Quantum).
